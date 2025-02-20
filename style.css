@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #5310b0f8;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #5310b0f8;
+    text-transform: uppercase;
+}
+
+/* Imagem de destaque */
+.imagem-destaque {
+    width: 80%;
+    max-width: 800px;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+/* Seções */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(98, 0, 234, 0.6);
+}
+
+/* Links */
+a {
+    color: #5310b0f8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #5310b0f8;
+}
+
+/* Botão */
+button {
+    background-color: #5310b0f8;
+    color: rgb(79, 17, 17);
+    border: none;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #5310b0f8;
+}
+/* Estilo para os títulos dos nomes */
+.titulo-roxo {
+    font-size: 27px;       /* Tamanho grande */
+    font-weight: bold;     /* Negrito */
+    color: #5310b0f8;        /* Cor roxa escura (você pode ajustar conforme sua preferência) */
+    margin-bottom: 10px;   /* Espaçamento inferior */
+}
+
+/* Exemplo de estilização para a seção "Sobre nós" inspirada no site indicado */
+#sobre-nos {
+    background-color: #2f2f2f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(98, 0, 234, 0.6);
+    margin: 20px auto;
+    max-width: 800px;
+}
